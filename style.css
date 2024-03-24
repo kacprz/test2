@@ -1,0 +1,173 @@
+body{
+    background-color: #63BBE1;
+    color: #004AAD;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid black; 
+    padding: 20px;
+    margin: 10px;
+
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-img {
+    width: 320px;
+    margin-right: 2px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration-line: underline;
+    margin: 0;
+    margin-top: 20%;
+  
+}
+
+
+
+h2{
+    text-decoration-line: underline;
+    font-weight: bold;
+    background-color: #c2ecec;
+    text-align: center;
+}
+/*divider*/
+hr {
+    border: 8px solid #c2ecec;
+}
+
+/*biography*/
+.biography_text{
+    text-align: justify;
+}
+
+/*objective*/
+.objective_text{
+    border: 2px solid black;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.objective_img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px
+}
+/*personal data*/
+.personal_text {
+    border: 2px solid black;
+    padding: 8px;
+    width: 80%;
+    height:280px;
+    margin: 0 auto;
+
+    text-align: center;
+    align-items: center;
+  }
+
+  .personal_img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+  }
+
+ul {
+
+    text-align: left;
+    margin-left: 20px;
+  }
+
+/*educational backhround*/
+.educational, .org, .socialnet{
+    width: 100%;
+}
+.educational_background{
+    border: 2px solid black;
+    width: 100%;
+    max-width: 950px;
+    padding: 0;
+
+}
+
+/* organization and councils*/
+
+.organization_background{
+    border: 2px solid black;
+    width: 100%;
+    max-width: 950px;
+    padding: 0;
+
+}
+
+
+
+/* for table */
+.work_expereince{
+    width: 90%;
+    margin: 0 auto;
+    
+   
+} /* start of table css*/
+table{
+  border-collapse: collapse;
+  margin-bottom: auto;
+  color: #004AAD;
+    
+  
+
+}
+th, td {
+    border: 1px solid #000;
+    padding: 2px;
+    text-align: center;
+}
+.company{ /* 1st table*/
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+th {
+    background-color: #A4DEFF;
+}
+.poundit, .mcdo, .brgy {
+    width: 260px;
+    display: block; /* Ensure images are block-level elements */
+    margin: auto; /* Center the images */
+}
+.job_description{
+    text-align: justify;
+}
+
+/* certification*/
+
+.certification_background{
+    border: 2px solid black;
+    width: 100%;
+    max-width: 950px;
+    padding: 0;
+}
+/* socials*/
+.socials li {
+    margin-top: 90px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+
+.facebook, .linkedin, .github{
+    width: 100px;
+    margin: 0 10px;
+    vertical-align: bottom;
+}
